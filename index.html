@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Telsa</title>
+
+    <!--Adding Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    
+    <!-- jQuery, Popper.js & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="static/css/all.min.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/slick.css"/>    
+    <link rel="stylesheet" href="static/css/project_2_theme.css"/>    
+    <link rel="stylesheet" href="static/css/project_2_popup.css">
+    <link rel="stylesheet" href="static/css/project_2_style.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+
+       <!--Custom Style CSS Link-->
+    <link rel="stylesheet" type="text/css" href="project_2_style.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+      <div class="row">        
+          <nav id="p2Sidebar" class="p2-bg-black-transparent p2-sidebar">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            </button>
+            <div class="p2-sidebar-sticky">
+             <div class="p2-brand-box">
+              <a href="index.html">
+                      <img class="panel" src="static/img/tesla-logo5.png" alt="Exploring Telsa">
+                  </a>
+              </div>
+
+<!-- Navigation Setup Section-->
+              <ul id="p2MainNav" class="nav flex-column text-uppercase text-right p2-main-nav">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link active">
+                    <span class="d-inline-block mr-3">Intro</span>
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">
+                    <span class="d-inline-block mr-3">About</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">
+                      <span class="d-inline-block mr-3">Our Work</span>
+                     </a>
+                  </li>
+
+              <!-- Setup dropdown for Dashboard include separate visual html-->
+                  <li class="nav-item dropdown">
+                    <a href="#visual" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false" >Dashboard</span>
+                     <!----> <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      </strong><a class="dropdown-item" href="visual_1.html">Visual 1</a>
+                      <a class="dropdown-item" href="visual_2.html">Visual 2</a>
+                      <a class="dropdown-item" href="visual_3.html">Visual 3</a>
+                      <a class="dropdown-item" href="visual_extra.html">Extra</a>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#data" class="nav-link">
+                      <span class="d-inline-block mr-3">Data</span>
+                    </a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#talk" class="nav-link">
+                      <span class="d-inline-block mr-3">Resources</span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav flex-row p2-social-links">
+                  <li class="nav-item">
+                    <a href="https://github.com/ANABGR" class="nav-link p2-social-link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://twitter.com" class="nav-link p2-social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/dosterman09" class="nav-link p2-social-link">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://github.com/Vlvasquez23" class="nav-link p2-social-link">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+                <footer class="text-center text-white small">
+                </div>
+            </nav>
+
+ <!-- Background and Cover Page-->
+         <main role="main" class="ml-sm-auto col-12">
+            <section>
+              <div class="p2-img-wrap"
+                   data-parallax="scroll">
+                   <img src="static/img/stock-market.jpeg" alt="animeb-image">
+              </div> 
+                 <div class="p2-section-wrap"> 
+                <div id="intro" class="p2-section">
+                    <div class="p2-bg-white-transparent p2-intro">
+                        <h2 class="p2-section-title mb-5 text-uppercase p2-color-primary">The Vision of Telsa</h2>
+                        <p class="p2-color-white">
+                          "Tesla’s vision is to “create the most compelling car company of the 21st century by driving the world’s transition to electric vehicles,” while its mission is “to accelerate the advent of sustainable transport by bringing compelling mass-market electric cars to market as soon as possible.”
+                    </div>              
+                </section>
+              </section>
+            </div>            
+          </div>
+
+<!-- About Telsa & Our Objective-->
+
+          <div class="p2-section-wrap bg-white">
+            <section id="about" class="row p2-section">
+              <div class="col-xl-6">
+                <div class="p2-section-half">    
+                  <a href="index.html">
+                      <img class="panel" src="static/img/about.png" alt="About Telsa">
+                  </a>                       
+                    <h2 class="p2-section-title p2-color-primary mb-5">About Telsa</h2>
+                    <p class="mb-5">
+                     "Tesla, Inc. is an American electric vehicle and clean energy company based in Palo Alto, California. Tesla's current products include electric cars, battery energy storage from home to grid scale, solar panels and solar roof tiles, as well as other related products and services"
+                    </p>
+                    <!--<p>
+                      Additional Text
+                    </p>-->
+                </div>
+              </div>
+              <!--Clean up Objective-->
+              <div class="col-xl-6">
+                <div class="p2-section-half">
+                  <a href="index.html">
+                    <img class="panel" src="static/img/about_icon.png" alt="Our Objective">
+                    <h2 class="p2-section-title p2-color-primary mb-5">Objective</h2>
+                    <p class="mb-5">
+                      Day 1 (Today):
+Between now and Saturday, you will need to start brainstorming topics with your group and researching potential data sets. Your focus should center around:
+Selecting a topic 	
+Finding a data set	
+Finding inspiration	
+“Sketching” your ideal visuals
+Creating a 1-page proposal
+
+                    </p>
+                  <!-- <p>
+                     Addition Text
+                    </p>--> 
+                </div>
+              </div>
+            </section>
+          </div>
+
+        <!-- Our Work: Tools & Summary-->   
+        <div class="p2-section-wrap bg-white">
+          <section id="work" class="row p2-section">
+            <div class="col-12">
+              <!--<div class="w-100 p2-double-border-1 p2-border-gray">
+                  <div class="p2-double-border-2 p2-border-gray p2-box-pad"> -->
+                    <div class="p2-gallery-wrap">
+                        <h2 class="p2-color-primary p2-section-title mb-4 ml-2">Our Work</h2>
+                       <div class="p2-gallery"> 
+                        <div class="p2-gallery-item">
+                          <figure class="effect-work">
+                            <img src="static/img/City Latitude vs. Cloudiness.png" alt="Our Work Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>word</span></h2>
+                              <p>word likes to appear out of thin air.</p>
+                              <a href="static/img/City Latitude vs. Cloudiness.png">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="static/img/City Latitude vs. Cloudiness.png" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="static/img/City Latitude vs. Cloudiness.png">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="static/img/City Latitude vs. Cloudiness.png" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="static/img/City Latitude vs. Cloudiness.png">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="static/img/City Latitude vs. Cloudiness.png" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="static/img/City Latitude vs. Cloudiness.png">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+          <!--Extra Incase-->                
+                          <!--<div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="img/gallery/05.jpg" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="img/gallery/large/05.jpg">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="img/gallery/06.jpg" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="img/gallery/large/06.jpg">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="img/gallery/07.jpg" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="img/gallery/large/07.jpg">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div>
+                          <div class="p2-gallery-item">
+                            <figure class="effect-work">
+                              <img src="img/gallery/08.jpg" alt="Our Work Image" class="img-fluid">
+                              <figcaption>
+                                <h2>Fresh <span>word</span></h2>
+                                <p>word likes to appear out of thin air.</p>
+                                <a href="img/gallery/large/08.jpg">View more</a>
+                              </figcaption>
+                            </figure>
+                          </div> -->
+                        </div>
+                    </div>                        
+                  </div>                  
+                </div>     
+            </div>         
+          </section>
+        </div>          
+
+  <!-- Dashboard Setup-->
+            <!-- Dashboard include visuals and links to visuals hp2l with details-->
+            <div class="p2-section-wrap bg-white">
+              <section id="visual" class="row p2-section">
+                <div class="col-12 p2-section-pad">
+                    <div class="p2-flex-item-left">
+                        <div class="p2-w-80">
+                            <h2 class="p2-color-primary p2-section-title mb-4">Our Visualization</h2>
+                            <p class="mb-5">
+                              Discuss Visuals
+                            </p>
+                        </div>
+                        
+                        <div class="row p2-visual-images">
+                          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                            <a href="visual_1.html"> <!-- Update to HtmL Link-->
+                              <img src="static/img/City Latitude vs. Humidity.png" alt="Visual 1" class="img-fluid p2-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                            <a href="https://facebook.com">
+                              <img src="static/img/City Latitude vs. MaxTemp.png" alt="Visual 2" class="img-fluid p2-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                            <a href="https://twitter.com">
+                              <img src="img/client-3.png" alt="Client Image" class="img-fluid p2-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                            <a href="https://instagram.com">
+                              <img src="img/client-4.png" alt="Client Image" class="img-fluid p2-client-img" />
+                            </a>                          
+                          </div>
+                          <!--<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                              <a href="https://google.com">
+                                <img src="img/client-5.png" alt="Client Image" class="img-fluid p2-client-img" />
+                              </a>                          
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                              <a href="https://facebook.com">
+                                <img src="img/client-6.png" alt="Client Image" class="img-fluid p2-client-img" />
+                              </a>                          
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                              <a href="https://twitter.com">
+                                <img src="img/client-7.png" alt="Client Image" class="img-fluid p2-client-img" />
+                              </a>                          
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p2-img-wrap">
+                              <a href="https://instagram.com">
+                                <img src="img/client-8.png" alt="Client Image" class="img-fluid p2-client-img" />
+                              </a>                          
+                            </div> -->
+                        </div>
+                    </div> 
+                </div>                             
+              </section>
+            </div>
+
+</body>
+</html>

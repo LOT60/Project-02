@@ -22,6 +22,8 @@ Tesla has a cult following. We wanted to see the ups and downs of Tesla stock ov
 * D3
 * Jupyter Notebooks
 * PG Admin
+* Web Scraping
+
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
@@ -32,7 +34,7 @@ Show examples of usage:
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
+* Our dashboard is used to move around the webpages easily.
 * Awesome feature 2
 * Awesome feature 3
 

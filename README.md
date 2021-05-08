@@ -12,15 +12,16 @@ TESLA-Stocks
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+Tesla has a cult following. We wanted to see the ups and downs of Tesla stock over time.
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+## Technologies we used
+* HTML
+* D3
+* Jupyter Notebooks
+* PG Admin
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
@@ -43,7 +44,10 @@ To-do list:
 Project is: _in progress_, _finished_, _no longer continue_ and why?
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Telling the story of Tesla stock data thru visualizations.
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+## Content Creators
+Vanessa Vasquez
+Anna Sanchez
+Ana Beatriz Gomez
+Dustin Osterman

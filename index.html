@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Financial Plot</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/simple-statistics@5.0.0/dist/simple-statistics.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+  body {
+      background-color: whitesmoke;
+    }
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    border-collapse: collapse;
+    padding: 8px;
+}
+tbody>tr:nth-child(even){background-color: #f2f2f2 !important}
+tbody>tr:nth-child(odd){background-color: #fff !important}
+/* th {
+  background-color: #2f3439;
+  color: white;
+} */
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="StockTSLA1.html">2010 Stocks
+            <!-- <img class="nav-ufo" src="assets/Tesla_Motors.svg"> -->
+          </a>
+        </div>
+      </div>
+    </nav>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>
+        Tesla Financial Report
+        <!-- <span id="report-date" style="float: right;">Tesla Motors Inc. (TSLA)</span> -->
+      </h1>
+      <p></p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            Company Profile
+          </div>
+        </div>
+        <div class="company">
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Stock Performance
+          </div>
+        </div>
+        <div id="plot"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table id="summary-table" class="table table-striped">
+          <thead>
+            <tr>
+              <th class="table-head">Date</th>
+              <th class="table-head">Open</th>
+              <th class="table-head">High</th>
+              <th class="table-head">Low</th>
+              <th class="table-head">Close</th>
+              <th class="table-head">Volume</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<script src="Resources/launch.js"></script>
+</body>
+
+</html>

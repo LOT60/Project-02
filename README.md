@@ -1,6 +1,9 @@
 # Project-02
 TESLA-Stocks
 
+![TSLA](https://user-images.githubusercontent.com/74845016/117735144-877bc100-b1ba-11eb-9312-ce1f7aaa2d4f.png)
+
+
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)

@@ -25,7 +25,8 @@ Tesla has a cult following. We wanted to see the ups and downs of Tesla stock ov
 * D3
 * Jupyter Notebooks
 * PG Admin
-* Web Scraping
+* Flask
+
 
 
 ## Setup

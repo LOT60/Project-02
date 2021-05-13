@@ -46,8 +46,10 @@ To-do list:
 * Wow improvement to be done 1
 * Wow improvement to be done 2
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+## Objective
+
+We used Tesla Stock data to create performance graphs and use html to present the graphs. Given our knowledge of different technologies such as D3, SQL Lite, HTML, & Flask we will be able to create a working dashboard website to present our findings.
+
 
 ## Inspiration
 Telling the story of Tesla stock data thru visualizations.

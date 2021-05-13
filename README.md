@@ -1,7 +1,7 @@
 # Project-02
 TESLA-Stocks
 
-![stock-market](https://user-images.githubusercontent.com/74845016/118077670-31557c00-b37a-11eb-8e34-edcf9cc92821.jpeg =250x250)
+![stock-market](https://user-images.githubusercontent.com/74845016/118077670-31557c00-b37a-11eb-8e34-edcf9cc92821.jpeg | width=100)
 
 ## Table of contents
 * [General info](#general-info)
@@ -27,7 +27,7 @@ Tesla stock has had its fair share of ups and down over the years since concepti
 * Quandl API
 * Python Flask
 * JavaScript 
-*   D3/Plotly
+*  D3/Plotly
 * Jupyter Notebooks
 * SQL/Sqlite
 

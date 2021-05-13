@@ -1,3 +1,5 @@
+var apiKey = "6sKb5xNg6RravCqTHeJ5";
+
 /**
  * Helper function to select stock data
  * Returns an array of values
@@ -18,7 +20,7 @@
   
   function getMonthlyData() {
   
-   var link = "Resources/TSLA.json";
+   var link = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2010-01-02&end_date=2018-01-02&collapse=monthly&api_key=${apiKey}`;
     d3.json(link).then(function(data) {
       var dates = unpack(data.dataset.data, 0);
       var openPrices = unpack(data.dataset.data, 1);
@@ -46,7 +48,7 @@
   }
   
   function buildPlot() {
-     var link = "Resources/TSLA.json";
+     var link = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2010-01-02&end_date=2018-01-02&collapse=monthly&api_key=${apiKey}`;
      d3.json(link).then(function(data) {
   // Grab values from the response json object to build the plots
       var name = data.dataset.name;

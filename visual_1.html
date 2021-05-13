@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Financial Plot</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/style_2010.css">
+    <link rel="stylesheet" href="static/css/bar_chart_style.css">
     <script src="https://unpkg.com/simple-statistics@5.0.0/dist/simple-statistics.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -27,77 +30,42 @@
           <img class="panel" src="static/img/tesla-logo5.png"
            width="50"
            height="50"
-          alt="Exploring Telsa">
+          alt="Exploring Telsa"> 
       </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <li class="nav-item">
-                        <a id="lmargin" class="nav-link" href="index.html" style="color: #213159">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="lmargin" class="nav-link" href="index.html#visual" style="color: #213159">Dashboard</a>
-                    </li>
-                  <!-- <a id="lmargin" class="nav-link dropdown-toggle" href="index.html#visual" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" style="color:#213159">Dashboard</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.html#visual">Summary</a>
-                        <a class="dropdown-item" href="visual _1.html">Visual 1</a>
-                        <a class="dropdown-item" href="visual_2.html">Visual 2</a>
-                        <a class="dropdown-item" href="visual_3.html">Visual 3</a>
-                        <a class="dropdown-item" href="visual_extra.html">Extra</a>
-                    </div>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a id="lmargin" class="nav-link" href="index.html" style="color: #213159">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a id="lmargin" class="nav-link" href="data.html" style="color: #213159">Data</a>
+                    <a id="lmargin" class="nav-link" href="index.html#visual" style="color: #213159">Dashboard</a>
                 </li>
-               <li class="nav-item">
-                    <a id="lmargin" class="nav-link" href="index.html#source" style="color: #213159">Resources</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<style>
-    body {
-      background-color: unset;
-    }
-tbody>tr:nth-child(even){background-color: #f2f2f2 !important}
-tbody>tr:nth-child(odd){background-color: #fff !important}
-/* th {
-  background-color: #2f3439;
-  color: white;
-} */
-  </style>
-<div class="container-fluid"></div>
-<h1>
-    2010 Tesla Financial Report
-    <span id="report-date" style="float: right;">Tesla Motors Inc. (TSLA)</span>
-  </h1>
-  <p></p>
+              <!-- <a id="lmargin" class="nav-link dropdown-toggle" href="index.html#visual" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="color:#213159">Dashboard</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html#visual">Summary</a>
+                    <a class="dropdown-item" href="visual _1.html">Visual 1</a>
+                    <a class="dropdown-item" href="visual_2.html">Visual 2</a>
+                    <a class="dropdown-item" href="visual_3.html">Visual 3</a>
+                    <a class="dropdown-item" href="visual_extra.html">Extra</a>
+                </div>-->
+            </li>
+            <li class="nav-item">
+                <a id="lmargin" class="nav-link" href="data.html" style="color: #213159">Data</a>
+            </li>
+           <li class="nav-item">
+                <a id="lmargin" class="nav-link" href="index.html#source" style="color: #213159">Resources</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 </div>
 
-<div class="row">
-  <div class="col-md-4">
-    <div class="panel panel-primary">
-      <div class="panel-body">
-          </div>
-        <p>Company Profile</p>
-      </div>
-    </div>
-    <div class="company">
-    </div>
-  </div>
-          <p></p>Stock Performance</p>
-      </div>
-    </div>
-    <div id="plot"></div>
-  </div>
-</div>
-<script src="./Resources/app.js"></script>
-</body>
 
+
+ </body>
 </html>

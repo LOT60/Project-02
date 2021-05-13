@@ -20,7 +20,7 @@ function unpack(rows, index) {
 
 function getMonthlyData() {
 
-  var url = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2010-10-01&end_date=2010-10-12&collapse=monthly&api_key=${apiKey}`;
+  var url = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2015-01-02&end_date=2018-01-02&collapse=monthly&api_key=${apiKey}`;
   d3.json(url).then(function(data) {
     var dates = unpack(data.dataset.data, 0);
     var openPrices = unpack(data.dataset.data, 1);
@@ -32,7 +32,7 @@ function getMonthlyData() {
   });
 }
 function buildPlot() {
-  var Turl = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2010-01-01&end_date=2010-12-31&api_key=${apiKey}`;
+  var Turl = `https://www.quandl.com/api/v3/datasets/WIKI/TSLA.json?start_date=2015-01-02&end_date=2018-01-02&api_key=${apiKey}`;
 
   d3.json(Turl).then(function(data) {
 

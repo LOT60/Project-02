@@ -17,6 +17,9 @@ TESLA-Stocks
 ## General info
 Tesla has a cult following. We wanted to see the ups and downs of Tesla stock over time.
 
+Tesla stock has had its fair share of ups and down over the years since conception on the NYSE in 2016. Our stock data is current up to 2018 but has been mostly on the uptrend throughout our 2 years of data.![image](https://user-images.githubusercontent.com/72676969/118076757-6eb90a00-b378-11eb-9bd0-ad9ae31fa955.png)
+
+
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 

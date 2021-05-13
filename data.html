@@ -48,10 +48,10 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <li class="nav-item">
-                        <a id="lmargin" class="nav-link" href="index.html" style="color: #213159">Home</a>
+                        <a id="lmargin" class="nav-link" href="index.html" style="color: whitesmoke">Home</a>
                     </li>
                     <a id="lmargin" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" style="color:#213159">Dashboard</a>
+                        aria-haspopup="true" aria-expanded="false" style="color: whitesmoke">Dashboard</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="index.html#visual">Summary</a>
                         <a class="dropdown-item" href="./visual _1.html">Visual 1</a>
@@ -61,10 +61,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a id="lmargin" class="nav-link" href="data.html" style="color: #213159">Data</a>
+                    <a id="lmargin" class="nav-link" href="data.html" style="color: whitesmoke">Data</a>
                 </li>
                <li class="nav-item">
-                    <a id="lmargin" class="nav-link" href="index.html#source" style="color: #213159">Resources</a>
+                    <a id="lmargin" class="nav-link" href="index.html#source" style="color:whitesmoke">Resources</a>
                 </li>
             </ul>
         </div>
@@ -95,11 +95,12 @@
               </form>
             </div>
           </div>
-        </aside>
+          <div id="plot"></div>
+        </div>
       </div>
-      <div class="col-md-10">
-        <div id="table-area" class="">
-          <table id="tesla-table" class="table table-striped">
+      <div class="row">
+        <div class="col-md-12">
+          <table id="summary-table" class="table table-striped">
             <thead>
               <tr>
                 <th class="table-head">Date</th>
@@ -108,13 +109,6 @@
                 <th class="table-head">Low</th>
                 <th class="table-head">Close</th>
                 <th class="table-head">Volume</th>
-                <th class="table-head">Ex-Dividend</th>
-                <th class="table-head">Split Ratio</th>
-                <th class="table-head">Adj. Open</th>
-                <th class="table-head">Adj. High</th>
-                <th class="table-head">Adj. Low</th>
-                <th class="table-head">Adj. Close</th>
-                <th class="table-head">Adj. Volume</th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -122,11 +116,10 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="js/tesla_data.js"></script>
 <script src="js/data_function.js"></script>
+<script src="Resources/launch.js"></script>
 </body>
 
 </html>

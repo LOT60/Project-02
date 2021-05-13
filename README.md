@@ -27,7 +27,7 @@ Tesla stock has had its fair share of ups and down over the years since concepti
 * Quandl API
 * Python Flask
 * JavaScript 
-*  D3/Plotly
+    *  D3/Plotly
 * Jupyter Notebooks
 * SQL/Sqlite
 

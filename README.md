@@ -49,7 +49,6 @@ To-do list:
 ## Objective
 
 We used Tesla Stock data to create performance graphs and use html to present the graphs. Given our knowledge of different technologies such as D3, SQL Lite, HTML, & Flask we will be able to create a working dashboard website to present our findings.
-![image](https://user-images.githubusercontent.com/72676969/118067609-85eefc00-b366-11eb-8c76-43ccf981446d.png)
 
 
 ## Inspiration

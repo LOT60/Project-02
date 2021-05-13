@@ -1,8 +1,7 @@
 # Project-02
 TESLA-Stocks
 
-![TSLA](https://user-images.githubusercontent.com/74845016/117735144-877bc100-b1ba-11eb-9312-ce1f7aaa2d4f.png)
-
+![stock-market](https://user-images.githubusercontent.com/74845016/118077670-31557c00-b37a-11eb-8e34-edcf9cc92821.jpeg)
 
 ## Table of contents
 * [General info](#general-info)
@@ -23,13 +22,14 @@ Tesla stock has had its fair share of ups and down over the years since concepti
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
-## Technologies we used
-* HTML
-* Javascript - D3/Plotly
+## Visualization project includ:
+* HTML/CSS
+* Quandl API
+* Python Flask
+* JavaScript 
+*     D3/Plotly
 * Jupyter Notebooks
-* PG Admin
-* Flask
-
+* SQL/Sqlite
 
 
 ## Setup
@@ -56,6 +56,8 @@ We used Tesla Stock data to create performance graphs and use html to present th
 
 ## Inspiration
 Telling the story of Tesla stock data thru visualizations.
+
+## Challenges
 
 ## Content Creators
 Vanessa Vasquez

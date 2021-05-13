@@ -1,1 +1,0 @@
- const apikey = "6sKb5xNg6RravCqTHeJ5";

@@ -22,7 +22,7 @@ Tesla stock has had its fair share of ups and down over the years since concepti
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
-## Visualization Project:
+## Data Visualization Project:
 * HTML/CSS
 * Quandl API
 * Python Flask
@@ -59,9 +59,9 @@ Telling the story of Tesla stock data thru visualizations.
 
 ## Challenges
 * Data Visualization 
- * Many attempts to simply data   
+  * Many attempts to simply data   
 * Visual Interpretation 
- * Dozens of tool available to create data visualization 
+  * Dozens of tool available to create data visualization 
 
 ## Content Creators
 Vanessa Vasquez

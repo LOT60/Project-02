@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Tesla Data</title>
+
+    <!--Adding Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    
+    <!-- jQuery, Popper.js & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="static/css/all.min.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/slick.css"/>    
+    <link rel="stylesheet" href="static/css/project_2_popup.css">
+    <link rel="stylesheet" href="static/css/project_2_style.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="css/data_style.css" />
+  </head>
+
+       <!--Custom Style CSS Link-->
+    <link rel="stylesheet" type="text/css" href="project_2_style.css">
+</head>
+
+ <!--Navigation Setup Section-->
+ <body>
+ <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" style="background-color:transparent" href="index.html"></a>
+        <a href="index.html">
+          <img class="panel" src="static/img/tesla-logo5.png"
+           width="50"
+           height="50"
+          alt="Exploring Telsa">
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a id="lmargin" class="nav-link" href="index.html" style="color: #213159">Home</a>
+                    </li>
+                    <a id="lmargin" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="color:#213159">Dashboard</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html#visual">Summary</a>
+                        <a class="dropdown-item" href="./visual _1.html">Visual 1</a>
+                        <a class="dropdown-item" href="visual_2.html">Visual 2</a>
+                        <a class="dropdown-item" href="visual_3.html">Visual 3</a>
+                        <a class="dropdown-item" href="visual_extra.html">Extra</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a id="lmargin" class="nav-link" href="data.html" style="color: #213159">Data</a>
+                </li>
+               <li class="nav-item">
+                    <a id="lmargin" class="nav-link" href="index.html#source" style="color: #213159">Resources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="hero text-center">
+    <h1>Tesla's Stock Data</h1>
+   <!-- <p>The Truth is Out There</p> -->
+  </div>
+  <div class="container">
+    <div class="row margin-top-50">
+      <div class="col-md-2">
+        <aside class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading">Filter Search</div>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <ul class="list-group" id="filters">
+                    <li class="filter list-group-item">
+                      <label for="date">Enter a Date</label>
+                      <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                    </li>
+                  </ul>
+                </div>
+                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+              </form>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-10">
+        <div id="table-area" class="">
+          <table id="tesla-table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Date</th>
+                <th class="table-head">Open</th>
+                <th class="table-head">High</th>
+                <th class="table-head">Low</th>
+                <th class="table-head">Close</th>
+                <th class="table-head">Volume</th>
+                <th class="table-head">Ex-Dividend</th>
+                <th class="table-head">Split Ratio</th>
+                <th class="table-head">Adj. Open</th>
+                <th class="table-head">Adj. High</th>
+                <th class="table-head">Adj. Low</th>
+                <th class="table-head">Adj. Close</th>
+                <th class="table-head">Adj. Volume</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="js/js_data.js"></script>
+<script src="js/js_app.js"></script>
+</body>
+
+</html>
